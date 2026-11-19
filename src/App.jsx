@@ -1,4 +1,4 @@
-import{useEffect,useMemo,useState}from'react';import{Activity,Battery,Camera,Check,ChevronRight,Cpu,HardDrive,Layers,MemoryStick,Monitor,Palette,Plus,Power,Settings,Smartphone,Star,Wallet,Waves,Zap}from'lucide-react';
+import{useEffect,useMemo,useState}from'react';import{Activity,Battery,Camera,Check,ChevronRight,Cpu,HardDrive,Layers,MemoryStick,Monitor,Palette,Package,Plus,Power,Settings,Smartphone,Star,Wallet,Waves,Zap}from'lucide-react';
 const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
 const catalog={
  display:[{id:'lcd',name:'IPS LCD',price:38,detail:'6.1” · 60Hz · 500 nits',score:48},{id:'oled',name:'OLED',price:86,detail:'6.2” · 90Hz · 900 nits',score:72},{id:'amoled',name:'Dynamic AMOLED',price:139,detail:'6.4” · 120Hz · 1,600 nits',score:94}],
