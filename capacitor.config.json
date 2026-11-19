@@ -1,0 +1,6 @@
+{
+  "appId": "com.siliconempire.game",
+  "appName": "Silicon Empire",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
